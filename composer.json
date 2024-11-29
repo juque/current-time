@@ -1,0 +1,21 @@
+{
+  "name": "acme/current-time",
+  "description": "A simple package to display current time",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Acme\\CurrentTime\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Acme\\CurrentTime\\CurrentTimeServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  }
+}
